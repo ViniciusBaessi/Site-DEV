@@ -1,3 +1,10 @@
+
+html {
+width: 100vw;
+height: 100vh;
+}
+
+
 @media screen and (max-width: 600px) {
 
   
@@ -443,7 +450,6 @@ nav ul li {
 /*-------------------------------------------------------*/
 
 
-
 .img-container{
     width: 91px;
     height: 85px;
@@ -663,5 +669,310 @@ hr {
 }
 
 @media screen and (min-width: 993px) {
+
+
+    /* Cabeçalho */
+
+    html, body, header {
+        background: #d2d2d2;
+    }
     
+    .container {
+        position: relative;
+        
+    }
+    
+    .icone-fix {
+        height: 62px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+
+
+    #burguer{
+        display: none;
+    }
+
+    .logo {
+        width: 193px;
+        height: 54px;
+        margin-right: 30px;
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+        height: 60px;
+    }
+
+    .lista-menu {
+    
+        display: flex;
+        flex-direction: row;
+        
+        
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px 10px 10px 0px;
+        
+    }
+
+
+    .lista-menu a {
+        text-decoration: none;
+        color: black;
+        margin-left: 72px;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    .lista-menu li {
+        padding-top: 11px;
+        
+    }
+
+    .lista-menu a:hover {
+        text-decoration: underline;
+    }
+
+    .lista-menu a:active{
+        background: rgba(0, 0, 0, 0.192);
+    }
+
+    .zapheader{
+        display: none;
+    }
+
+
+    
+
+/* Corpo */
+/*-------------------------------------------------------*/
+
+.container-produtos {
+    margin: 0px 90px 0px 90px;
+}
+
+.img-container{
+    width: 91px;
+    height: 85px;
+
+    border: 2px solid black;
+    border-radius:45%;
+
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: 18px;
+    
+}
+
+
+.caminhão {
+    
+    width: 63%;
+    height: 61%;
+}
+
+
+.content-container1, .content-container2 {
+    display: flex; 
+    align-items: center; 
+    box-shadow: 5px 6px 11px -9px black;
+
+    background: #0ed9d3;
+    margin: 20px;
+   padding: 10px 10px 10px 10px;
+}
+
+.título {
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    
+}
+
+.texto {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+
+.content-container2 {
+    margin-bottom: 48px;
+}
+
+.container-produtos {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content-container3 {
+    background: white;
+    display: block;
+    text-align: center;
+    margin: 22px;
+    padding-bottom: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 40px;
+}
+
+.content-container3 img {
+    width: 233px;
+    height: 206px;
+    margin-bottom: 22px;
+    border-radius: 40px;
+}
+
+.content-container3 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(94 93 93);
+}
+
+.content-container3 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.preços {
+    font-size: 12px;
+    margin-bottom: 20px;
+    
+}
+
+.azul {
+    color: #726aa4;
+    font-weight: bold;
+}
+
+
+
+/*-------------------------------------------------------*/
+
+
+
+footer {
+    background: rgb(63, 63, 63);
+    color: white;
+    
+}
+
+#contatos {
+    padding: 18px;
+}
+
+#contatos div h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#contatos div h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.ccontatos {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+
+.i {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 7px;
+    
+}
+
+.p {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 18px;
+    grid-gap: 7px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*-------------------------------------------------------*/
+
+
+
+#rodape {
+    padding: 18px;
+}
+
+#rodape div h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-bottom: 28px;
+    margin-top: 30px;
+}
+
+#rodape div ul {
+    
+    display: flex;
+    justify-content:center;
+    padding: 0px 90px;
+    margin-bottom: 18px;
+}
+
+.rlista {
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 8px;
+}
+
+#rodape div p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #9c9c9c;
+    padding-top: 33px;
+    padding-bottom: 18px;
+}
+
+.vini {
+    font-weight: 500;
+    text-decoration:underline;
+}
+
+/*-------------------------------------------------------*/
+
+.info {
+    background: #0da8a3;
+    padding: 0px;
+}
+
+.info div p {
+    padding: 25px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 21px;
+    height: 32px;
+}
 }
