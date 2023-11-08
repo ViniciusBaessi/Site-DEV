@@ -5,6 +5,9 @@ height: 100vh;
 }
 
 
+
+
+
 @media screen and (max-width: 600px) {
 
   
@@ -522,6 +525,7 @@ nav ul li {
     border-radius: 40px;
 }
 
+
 .content-container3 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -536,6 +540,7 @@ nav ul li {
     
     
 }
+
 
 .preços {
     font-size: 12px;
@@ -597,6 +602,11 @@ footer {
     grid-template-columns: 1fr;
     padding-left: 18px;
     grid-gap: 7px;
+    
+}
+
+.dado{
+   margin: 0px;
 }
 
 hr {
@@ -906,7 +916,12 @@ footer {
     grid-template-columns: 1fr;
     padding-left: 18px;
     grid-gap: 7px;
+    margin: 0px;
 }
+
+.dado{
+    margin: 0px;
+ }
 
 hr {
     margin-bottom: 10px;
